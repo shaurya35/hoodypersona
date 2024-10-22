@@ -7,7 +7,7 @@ export default function Thankyou() {
           <div className="text-4xl text-white leading-[80px] pt-12">
             TELL YOUR FRIENDS YOU <br/> JOINED A GANG TODAY
           </div>
-          <div className="text-[80px] text-white pt-24">
+          <div className="text-[80px] text-white pt-24 md:hidden lg:block">
             HOODYGANG
           </div>
         </div>

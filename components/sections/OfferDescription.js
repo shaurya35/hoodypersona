@@ -6,7 +6,7 @@ export default function OfferDescription() {
         <img src="/images/landing/bowl.svg" className="md:hidden px-12 w-full"/>
       </div>
       <div className="w-full sm:w-1/2">
-        <div className="bg-[url('/images/landing/frame2.svg')] w-[350px] h-[184px] sm:w-[616px] sm:h-[324px] bg-cover bg-center bg-no-repeat flex justify-center m-auto md:m-0">
+        <div className="bg-[url('/images/landing/frame2.svg')] w-[390px] h-[184px] sm:w-[216px] sm:h-[324px] md:w-[470px] md:h-[400px] lg:w-[620px] bg-cover bg-center bg-no-repeat flex justify-center m-auto md:m-0">
           <div className="text-[11px] md:text-base text-black px-6 py-4 md:px-12 md:py-12 leading-4 md:leading-7">
             WE ALSO OFFER A HOODYGANG UI FOR HOLDERS TO VIEW AND MANAGE YOUR
             HOODYGANG NFTS.<br/><br/> THE HOODYGANG UI IS A FUN AND SIMPLE WAY FOR YOU <br/><br/>TO

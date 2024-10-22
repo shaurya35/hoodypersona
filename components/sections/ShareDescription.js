@@ -6,7 +6,7 @@ export default function ShareDescription() {
         <img src="/images/landing/content2.svg" className="w-full md:hidden"/>
       </div>
       <div className="w-full sm:w-1/2 flex md:pl-12">
-        <div className="bg-[url('/images/landing/frame3.svg')] w-[370px] h-[297px] sm:w-[600px] sm:h-[483px] bg-cover bg-center bg-no-repeat text-[11px] md:text-base text-black px-6 py-6 md:px-12 md:py-8 md:leading-8 m-auto md:m-0">
+        <div className="bg-[url('/images/landing/frame3.svg')] w-[370px] h-[297px] sm:w-[600px] sm:h-[483px] md:h-[580px] bg-cover bg-center bg-no-repeat text-[11px] md:text-[13px] lg:text-[16px] text-black px-6 py-6 md:px-12 md:py-8 md:leading-8 m-auto md:m-0">
           WITH THE HOODYGANG DAPP, YOU CAN SHARE AND TRADE YOUR CUSTOMIZED NFT
           OR ANY OF ITS TRAITS WITH OTHERS, CREATING A VIBRANT ECOSYSTEM OF
           PERSONALIZED DIGITAL PERSONAS.

@@ -6,7 +6,7 @@ export default function GetHoodyGang() {
           <img src="/images/landing/content1.svg" className="w-full px-12"/>
         </div>
         <div className="w-full md:w-7/12 px-10">
-          <div className="bg-[url('/images/landing/frame1.svg')] bg-cover bg-center bg-no-repeat w-[800px] h-[252px] justify-center">
+          <div className="bg-[url('/images/landing/frame1.svg')] bg-cover bg-center bg-no-repeat 2xl:w-[800px] 2xl:h-[252px] justify-center">
             <div className="text-base text-black px-6 py-14 leading-10">
               THE CUSTOMIZATION PROCESS IS USER FRIENDLY AND INTUITIVE, ALLOWING
               EVEN THOSE WITH LITTLE TECHNICAL EXPERTISE TO CREATE AN NFT WITH
