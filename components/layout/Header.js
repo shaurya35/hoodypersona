@@ -74,7 +74,7 @@ export default function Header({ color = false, ...props }) {
               md={0}
               sm={2}
               xs={2}
-              sx={{ display: { xs: "block", md: "none" } }}
+              sx={{ display: { xs: "block", sm: "none" } }}
             >
               <div
                 className="pr-2 flex justify-center"
@@ -85,6 +85,15 @@ export default function Header({ color = false, ...props }) {
                 <MenuIcon style={{ color: "white" }} />
               </div>
             </Grid>
+
+            <div
+              onClick={() => {
+                setPhoneMenuShow(!phoneMenuShow);
+              }}
+            >
+              <MenuIcon className="absolute top-7 left-10 text-white z-50 hidden sm:block md:hidden" />
+            </div>
+
             <Grid item lg={2} md={2} sm={8} xs={8}>
               <div
                 className="cursor-pointer flex justify-center sm:justify-start md:-mt-28 text-white"
@@ -96,9 +105,20 @@ export default function Header({ color = false, ...props }) {
                   src="/images/logo.png"
                   className="hidden md:block w-[70px] md:w-[140px] h-[70px] md:h-[140px]"
                 />
-                <div className="md:hidden text-2xl ml-6 -mt-6">HOODYGANG</div>
+                <div className="block mb-3 sm:text-2xl sm:ml-24 sm:mb-5  sm:hidden text-xl ">
+                  HOODYGANG
+                </div>
               </div>
             </Grid>
+
+            <div
+              className="absolute left-32 mb-3 top-5 text-white hidden sm:block md:hidden cursor-pointer"
+              onClick={() => {
+                Router.push("/");
+              }}
+            >
+              HOODYGANG
+            </div>
 
             <Grid
               item
@@ -107,7 +127,7 @@ export default function Header({ color = false, ...props }) {
               md={10}
               sm={2}
               xs={2}
-              className="md:bg-[url('/images/landing/headerBG.png')] bg-no-repeat bg-cover text-black py-2 md:h-[223px]"
+              className="custom-lg:bg-[url('/images/landing/headerBG.png')] bg-no-repeat bg-cover text-black py-2 sm:h-[65px] md:h-[223px]"
             >
               <Grid
                 item
@@ -116,11 +136,12 @@ export default function Header({ color = false, ...props }) {
                 sm={0}
                 xs={0}
                 sx={{ display: { xs: "none", md: "block" } }}
+                className="hidden md:block"
               >
-                <div className="flex flex-row items-center justify-around space-x-2 md:leading-[60px]">
+                <div className="flex flex-row items-center justify-around md:leading-[60px]">
                   {navitem.map((items, itemIndex) => (
                     <div
-                      className="cursor-pointer flex justify-center hover:underline"
+                      className="cursor-pointer flex justify-center  hover:underline"
                       key={itemIndex}
                     >
                       <div
@@ -146,7 +167,7 @@ export default function Header({ color = false, ...props }) {
                 xs={0}
                 sx={{ display: { xs: "none", md: "block" } }}
               >
-                <div className="flex justify-end mt-4">
+                <div className="flex justify-end lg:mt-4">
                   <Account />
                 </div>
               </Grid>
