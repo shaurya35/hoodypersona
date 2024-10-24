@@ -34,7 +34,7 @@ const Account = ({ main = false }) => {
                         className={`${
                           main
                             ? ""
-                            : "w-[342px] md:w-[342px] h-[52px] hover:underline"
+                            : "w-[292px] md:w-[342px] h-[52px] hover:underline"
                         } py-5 md:py-6 pr-10 font-desc2`}
                       >
                         <div className="flex flex-row justify-end items-center space-x-4 md:absolute md:top-8 md:right-10 custom-lg:static">
