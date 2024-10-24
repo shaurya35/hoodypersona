@@ -8,7 +8,7 @@ export default function About() {
               src="/images/landing/coin.svg"
               className="w-[150px] h-[150px]"
             />
-            <div className="text-[11px] sm:text-[12px] md:text-[10px] xl:text-[19px] 2xl:text-[16px] leading-6 md:leading-8 text-black bg-[url('/images/landing/coinTextBG.svg')] bg-cover bg-center bg-no-repeat w-[350px] h-[91px] md:w-[500px] sm:h-[119px] md:h-[149px] pl-4 md:pl-6 py-4 md:py-6 m-auto mt-4 md:m-0 ">
+            <div className="text-[11px] sm:text-[12px] md:text-[10px] xl:text-[19px] 2xl:text-[16px] leading-6 md:leading-8 text-black bg-[url('/images/landing/coinTextBG.svg')] bg-cover bg-center bg-no-repeat w-[350px] h-[91px] sm:w-[250px] md:w-[500px] sm:h-[119px] md:h-[149px] pl-4 md:pl-6 py-4 md:py-6 m-auto mt-4 md:m-0 ">
               THROUGH OUR PLATFORM, YOU CAN BUY AND SELL TRAITS WITH ONE
               ANOTHER.
             </div>
@@ -18,7 +18,7 @@ export default function About() {
               src="/images/landing/star.svg"
               className="w-[150px] h-[150px] md:w-[180px] md:h-[180px] -mt-6"
             />
-            <div className="text-[11px] md:text-[12px] 2xl:text-[16px] 2xl:leading-6 xl:leading-5 text-black bg-[url('/images/landing/starTextBG.svg')] bg-cover bg-center bg-no-repeat w-[350px] h-[175px] md:w-[520px] md:h-[260px] px-6 md:pl-12 md:pr-6 pt-5 md:pt-6 m-auto mt-4 md:mt-0">
+            <div className="text-[11px] sm:text-[10px] md:text-[12px] 2xl:text-[16px] 2xl:leading-6 xl:leading-5 text-black bg-[url('/images/landing/starTextBG.svg')] bg-cover bg-center bg-no-repeat w-[350px] h-[175px] sm:w-[290px] md:w-[520px] md:h-[260px] px-6 md:pl-12 md:pr-6 pt-5 md:pt-6 m-auto mt-4 md:mt-0">
               STAKE YOUR HOODYGANG NFT TO GAIN POINTS THAT CAN BE USED TO
               ACQUIRE COMIC BOOKS, AND POSTERS FEATURING YOU AS THE MAIN
               CHARACTER! <br />
