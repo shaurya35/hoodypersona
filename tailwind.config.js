@@ -545,6 +545,7 @@ module.exports = {
         "md-max": { max: "960px" },
         "lg-max": { max: "1280px" },
         "xl-max": { max: "1920px" },
+        "custom-md": "770px",
         "custom-lg": "960px",
         "custom-lg-fix": "1024px",
       },

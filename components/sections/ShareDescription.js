@@ -2,7 +2,7 @@ export default function ShareDescription() {
   return (
     <div className="sm:py-12 md:py-8 flex flex-col sm:flex-row justify-around items-center space-y-8 sm:space-y-0 px-0 sm:px-8">
       <div className="w-full sm:w-1/2 flex justify-end p-6 sm:p-12">
-        <img src="/images/landing/content3.svg" className="w-3/4 hidden md:block" />
+        <img src="/images/landing/content3.svg" className="w-3/4 hidden custom-md:block" />
         <img src="/images/landing/content2.svg" className="w-full md:hidden"/>
       </div>
       <div className="w-full sm:w-1/2 flex md:pl-12">

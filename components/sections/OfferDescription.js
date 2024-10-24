@@ -3,7 +3,7 @@ export default function OfferDescription() {
     <div className="flex flex-col sm:flex-row justify-around items-center space-y-8 sm:space-y-0 relative">
       <div className="w-full sm:w-1/2 flex justify-center">
         <img src="/images/landing/content2.svg" className="hidden md:block w-3/4 px-12"/>
-        <img src="/images/landing/bowl.svg" className="md:hidden px-12 w-full"/>
+        <img src="/images/landing/bowl.svg" className="custom-lg:hidden px-12 w-full"/>
       </div>
       <div className="w-full sm:w-1/2">
         <div className="bg-[url('/images/landing/frame2.svg')] w-[390px] h-[184px] sm:w-[216px] sm:h-[324px] md:w-[470px] md:h-[400px] lg:w-[620px] bg-cover bg-center bg-no-repeat flex justify-center m-auto md:m-0">
