@@ -2,7 +2,6 @@ const fs = require("fs");
 
 
 
-
 let a = []
 for(let i = 0; i < 100;i++){
      obj = {
